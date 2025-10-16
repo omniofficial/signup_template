@@ -60,11 +60,6 @@
     background-color: white;
 }
 
-#createandlogin {
-    padding: 50px;
-    background: rgb(219, 214, 214);
-}
-
 form {
     max-width: 700px;
 }
@@ -105,4 +100,31 @@ input:focus {
 
 input[type="password"]:invalid {
     border: 2px solid red;
+}
+
+#createandlogin {
+    padding: 50px;
+    background: rgb(219, 214, 214);
+}
+
+#createaccount {
+    width: auto;
+    background-color: #596d48;
+    color: white;
+    font-size: 25px;
+    font-weight: var(--bold-weight);
+    padding: 15px 60px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#createandlogin p {
+    margin-top: 30px;
+    color: black;
+    font-size: 25px;
+}
+
+#createandlogin #loginText {
+    color: #596d48;
+    cursor: pointer;
 }

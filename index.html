@@ -26,7 +26,7 @@
                     <p>You <i>know</i> you want to.</p>
                 </section>
                 <section id="signupform">
-                    <form>
+                    <form id="signupForm" action="#" method="post">
                         <fieldset>
                             <legend>User Details</legend>
                             <div class="left_column">
@@ -75,8 +75,15 @@
                         </fieldset>
                     </form>
                 </section>
-                <section id="createandlogin"></section>
-                
+                <section id="createandlogin">
+                    <button id="createaccount" type="submit" form="signupForm">
+                        Create Account
+                    </button>
+                    <p>
+                        Already have an account?
+                        <span id="loginText">Log in</span>
+                    </p>
+                </section>
             </div>
         </div>
     </body>
