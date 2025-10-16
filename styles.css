@@ -94,5 +94,15 @@ input {
     width: 100%;
     padding: 5px;
     margin-bottom: 30px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #e5e7eb; /* light grey */
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 2px solid rgb(88, 124, 221);
+    outline: none;
+}
+
+input[type="password"]:invalid {
+    border: 2px solid red;
 }
