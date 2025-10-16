@@ -1,3 +1,38 @@
-h1 {
-    color: blue;
+.mainpage {
+    display: flex;
+}
+
+.left {
+    position: relative;
+    flex-shrink: 0;
+    height: auto;
+    width: 40%;
+}
+
+.left img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%; /* start at vertical center */
+    left: 50%; /* horizontal center */
+    transform: translate(-50%, -60%); /* shift up by 10% of its height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    z-index: 2;
+    width: 100%;
+}
+
+.overlay h1 {
+    background: grey;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
 }
