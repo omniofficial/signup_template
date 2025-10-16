@@ -29,33 +29,38 @@
                     <form>
                         <fieldset>
                             <legend>User Details</legend>
-                            <label for="first_name">First Name</label>
-                            <input
-                                type="text"
-                                id="first_name"
-                                name="first_name"
-                            />
-                            <label for="last_name">Last Name</label>
-                            <input
-                                type="text"
-                                id="last_name"
-                                name="last_name"
-                            />
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" />
-                            <label for="phone_number">Phone Number</label>
-                            <input
-                                type="tel"
-                                id="phone_number"
-                                name="phone_number"
-                            />
-                            <form>
+                            <div class="left_column">
+                                <label for="first_name">First Name</label>
+                                <input
+                                    type="text"
+                                    id="first_name"
+                                    name="first_name"
+                                />
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" />
                                 <label for="password">Password</label>
                                 <input
                                     type="password"
                                     id="password"
                                     name="password"
                                 />
+                            </div>
+
+                            <div class="right_column">
+                                <label for="last_name">Last Name</label>
+                                <input
+                                    type="text"
+                                    id="last_name"
+                                    name="last_name"
+                                />
+
+                                <label for="phone_number">Phone Number</label>
+                                <input
+                                    type="tel"
+                                    id="phone_number"
+                                    name="phone_number"
+                                />
+
                                 <label for="confirmPassword"
                                     >Confirm Password</label
                                 >
@@ -65,7 +70,7 @@
                                     name="confirmPassword"
                                     required
                                 />
-                            </form>
+                            </div>
                         </fieldset>
                     </form>
                 </section>
